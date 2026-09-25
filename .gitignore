@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.venv/
+wandb/
+*.log
+
+# model weights, both pretrained and produced by these scripts
+*.pt
+*.pth
+
+# placed inside cifar/common/ before running: see the README
+cifar/common/py-meanflow/
+cifar/common/ml-tarflow/
+cifar/common/cifar_data/
+
+# sample grids and metrics written by the scripts and notebooks
+cifar/common/*.png
+cifar/common/*.json
+checkerboard/*.png
+checkerboard/ckpts/

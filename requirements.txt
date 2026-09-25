@@ -1,0 +1,9 @@
+# torch and torchvision: install the build matching your CUDA version from pytorch.org
+numpy
+scipy
+matplotlib
+lpips
+zuko
+wandb  # optional, disable with WANDB=0
+
+# py-meanflow and ml-tarflow are not pip-installable. See the README for where they go.
